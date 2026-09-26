@@ -14,7 +14,8 @@ public class ProyekInternal extends Proyek {
     private String divisiPeminta;
     private String tujuanProjek;
 
-    public ProyekInternal(String idProjek, String namaProjek, String deadline, String divisiPeminta, String tujuanProjek) {
+    public ProyekInternal(String idProjek, String namaProjek, String deadline, 
+                           String divisiPeminta, String tujuanProjek) {
         super(idProjek, namaProjek, deadline);
         setDivisiPeminta(divisiPeminta);
         setTujuanProjek(tujuanProjek);

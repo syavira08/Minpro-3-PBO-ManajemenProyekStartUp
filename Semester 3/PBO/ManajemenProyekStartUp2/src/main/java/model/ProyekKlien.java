@@ -14,7 +14,8 @@ public class ProyekKlien extends Proyek {
     private String namaKlien;
     private String jenisKebutuhan;
  
-    public ProyekKlien(String idProjek, String namaProjek, String deadline, String namaKlien, String jenisKebutuhan) {
+    public ProyekKlien(String idProjek, String namaProjek, String deadline, 
+                        String namaKlien, String jenisKebutuhan) {
         super(idProjek, namaProjek, deadline);
         setNamaKlien(namaKlien);
         setJenisKebutuhan(jenisKebutuhan);
