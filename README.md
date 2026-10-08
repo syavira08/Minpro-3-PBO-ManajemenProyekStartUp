@@ -92,9 +92,9 @@ Inheritance diterapkan pada relasi antar kelas model, di mana satu kelas menurun
 `Proyek` berperan sebagai **superclass** yang menyimpan hal-hal yang dimiliki semua jenis proyek: ID, nama, deadline, serta method umum `getJenisProjek()` dan `cetakData()`:
 ><img width="1000" alt="image" src="https://github.com/user-attachments/assets/a47720ae-d512-4949-917b-0b9aca6497f9" />
 `ProyekInternal` dan `ProyekKlien` adalah **subclass** yang meng-*extend* `Proyek`. Keduanya otomatis mendapatkan seluruh atribut dan method milik `Proyek`, lalu menambahkan atribut khas miliknya sendiri. Saat atribut subclass dibuat, konstruktornya memanggil `super(idProjek, namaProjek, deadline)` untuk mengisi data umum lewat kelas induk, sehingga kode tidak perlu ditulis dua kali:
-><img width="800" alt="Screenshot 2026-09-24 221916" src="https://github.com/user-attachments/assets/a6d32303-6bdb-4e2d-b2a4-181377402518" />
+><img width="700" alt="Screenshot 2026-09-24 221916" src="https://github.com/user-attachments/assets/a6d32303-6bdb-4e2d-b2a4-181377402518" />
 
-><img width="800" alt="Screenshot 2026-09-24 222106" src="https://github.com/user-attachments/assets/b75654dd-6741-472e-b917-6135a340b29b" />
+><img width="700" alt="Screenshot 2026-09-24 222106" src="https://github.com/user-attachments/assets/b75654dd-6741-472e-b917-6135a340b29b" />
 Dengan inheritance, penambahan jenis proyek baru menjadi lebih mudah, cukup dengan membuat subclass baru yang meng-*extend* `Proyek`.
 
 ## 4. Penerapan Polymorphism dan Abstraction
